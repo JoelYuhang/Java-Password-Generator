@@ -18,8 +18,7 @@ public class PasswordGenerator {
     	 char[]password  = new char[len];
     	 int index = 0;
     	 for(int i = 0;i<len;i++){
-    		 password[i]=
-    				 passSymbols.charAt(rnd.nextInt(passSymbols.length()));
+    		 password[i]= passSymbols.charAt(rnd.nextInt(passSymbols.length()));
     	 }
     	 return password;
        }
